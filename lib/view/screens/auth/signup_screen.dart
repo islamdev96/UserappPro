@@ -179,7 +179,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                         textStyle: TextStyle(
                                             color: Theme.of(context)
                                                 .textTheme
-                                                .headline1!
+                                                .displayLarge!
                                                 .color),
                                       ),
                                       Expanded(
@@ -216,7 +216,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                       authProvider.verificationMessage ?? "",
                                       style: Theme.of(context)
                                           .textTheme
-                                          .headline2!
+                                          .displayMedium!
                                           .copyWith(
                                             fontSize:
                                                 Dimensions.FONT_SIZE_SMALL,

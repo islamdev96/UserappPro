@@ -175,7 +175,7 @@ class CreateAccountScreen extends StatelessWidget {
                                         textStyle: TextStyle(
                                             color: Theme.of(context)
                                                 .textTheme
-                                                .headline1!
+                                                .displayLarge!
                                                 .color),
                                       ),
                                       Expanded(
