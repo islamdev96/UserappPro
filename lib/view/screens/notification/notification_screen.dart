@@ -192,7 +192,7 @@ class NotificationScreen extends StatelessWidget {
                                                             .ellipsis,
                                                         style: Theme.of(context)
                                                             .textTheme
-                                                            .headline2!
+                                                            .displayMedium!
                                                             .copyWith(
                                                               fontSize: Dimensions
                                                                   .FONT_SIZE_LARGE,

@@ -162,7 +162,7 @@ class _SearchScreenState extends State<SearchScreen> {
                                               searchProvider.historyList[index],
                                               style: Theme.of(context)
                                                   .textTheme
-                                                  .headline2!
+                                                  .displayMedium!
                                                   .copyWith(
                                                       color: ColorResources
                                                           .getHintColor(

@@ -204,7 +204,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                           textStyle: TextStyle(
                                               color: Theme.of(context)
                                                   .textTheme
-                                                  .headline1!
+                                                  .displayLarge!
                                                   .color),
                                         ),
                                         Expanded(
@@ -293,7 +293,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                                     'remember_me', context)!,
                                                 style: Theme.of(context)
                                                     .textTheme
-                                                    .headline2!
+                                                    .displayMedium!
                                                     .copyWith(
                                                         fontSize: Dimensions
                                                             .FONT_SIZE_EXTRA_SMALL,
@@ -319,7 +319,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                                 'forgot_password', context)!,
                                             style: Theme.of(context)
                                                 .textTheme
-                                                .headline2!
+                                                .displayMedium!
                                                 .copyWith(
                                                     fontSize: Dimensions
                                                         .FONT_SIZE_SMALL,
@@ -348,7 +348,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                         authProvider.loginErrorMessage ?? "",
                                         style: Theme.of(context)
                                             .textTheme
-                                            .headline2!
+                                            .displayMedium!
                                             .copyWith(
                                               fontSize:
                                                   Dimensions.FONT_SIZE_SMALL,
@@ -538,7 +538,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                             style: poppinsRegular.copyWith(
                                                 color: Theme.of(context)
                                                     .textTheme
-                                                    .bodyText1!
+                                                    .bodyLarge!
                                                     .color)),
                                       ])),
                                     ),
