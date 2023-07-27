@@ -53,7 +53,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
               title: Text(getTranslated('profile', context)!,
                   style: poppinsMedium.copyWith(
                     fontSize: Dimensions.FONT_SIZE_SMALL,
-                    color: Theme.of(context).textTheme.bodyText1!.color,
+                    color: Theme.of(context).textTheme.bodyLarge!.color,
                   )),
             ),
       body: SafeArea(

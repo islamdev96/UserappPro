@@ -26,7 +26,7 @@ class CustomCheckBox extends StatelessWidget {
               child: Text(title!,
                   style: poppinsRegular.copyWith(
                     color: order.paymentMethodIndex == index
-                        ? Theme.of(context).textTheme.bodyText1!.color
+                        ? Theme.of(context).textTheme.bodyLarge!.color
                         : ColorResources.getHintColor(context),
                   )),
             ),

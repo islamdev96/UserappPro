@@ -179,7 +179,8 @@ class _ProductViewState extends State<ProductView> {
                             width: 500,
                             child: ElevatedButton(
                               style: ElevatedButton.styleFrom(
-                                  primary: Theme.of(context).primaryColor,
+                                  backgroundColor:
+                                      Theme.of(context).primaryColor,
                                   shape: RoundedRectangleBorder(
                                       borderRadius: BorderRadius.circular(30))),
                               onPressed: () {

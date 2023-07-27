@@ -113,7 +113,7 @@ class ContactScreen extends StatelessWidget {
                                       getTranslated('call_now', context)!,
                                       style: Theme.of(context)
                                           .textTheme
-                                          .headline3!
+                                          .displaySmall!
                                           .copyWith(
                                             color:
                                                 Theme.of(context).primaryColor,

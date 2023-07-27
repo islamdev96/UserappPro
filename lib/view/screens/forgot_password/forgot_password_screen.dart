@@ -150,7 +150,7 @@ class _ForgotPasswordScreenState extends State<ForgotPasswordScreen> {
                                               textStyle: TextStyle(
                                                   color: Theme.of(context)
                                                       .textTheme
-                                                      .headline1!
+                                                      .displayLarge!
                                                       .color),
                                             ),
                                             Expanded(

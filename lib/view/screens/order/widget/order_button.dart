@@ -31,7 +31,7 @@ class OrderButton extends StatelessWidget {
                 style: poppinsRegular.copyWith(
                     color: orderProvider.isActiveOrder == isActive
                         ? Theme.of(context).cardColor
-                        : Theme.of(context).textTheme.bodyText1!.color),
+                        : Theme.of(context).textTheme.bodyLarge!.color),
               ),
             ),
           );

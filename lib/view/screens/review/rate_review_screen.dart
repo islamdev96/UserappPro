@@ -50,7 +50,7 @@ class _RateReviewScreenState extends State<RateReviewScreen>
           color: Theme.of(context).cardColor,
           child: TabBar(
             controller: _tabController,
-            labelColor: Theme.of(context).textTheme.bodyText1!.color,
+            labelColor: Theme.of(context).textTheme.bodyLarge!.color,
             indicatorColor: Theme.of(context).primaryColor,
             indicatorWeight: 3,
             unselectedLabelStyle: poppinsRegular.copyWith(

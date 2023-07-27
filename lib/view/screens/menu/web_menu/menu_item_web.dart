@@ -27,7 +27,7 @@ class MenuItemWeb extends StatelessWidget {
             Image.asset(image,
                 width: 50,
                 height: 50,
-                color: Theme.of(context).textTheme.bodyText1!.color),
+                color: Theme.of(context).textTheme.bodyLarge!.color),
             SizedBox(height: Dimensions.PADDING_SIZE_LARGE),
             Text(title!, style: poppinsRegular),
           ],

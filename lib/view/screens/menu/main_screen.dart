@@ -137,7 +137,7 @@ class _MainScreenState extends State<MainScreen> {
                                     Image.asset(Images.cart_icon,
                                         color: Theme.of(context)
                                             .textTheme
-                                            .bodyText1!
+                                            .bodyLarge!
                                             .color,
                                         width: 25),
                                     Positioned(
@@ -169,7 +169,7 @@ class _MainScreenState extends State<MainScreen> {
                                       size: 30,
                                       color: Theme.of(context)
                                           .textTheme
-                                          .bodyText1!
+                                          .bodyLarge!
                                           .color),
                                   onPressed: () {
                                     Navigator.pushNamed(

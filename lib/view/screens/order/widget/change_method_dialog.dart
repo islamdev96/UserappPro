@@ -43,7 +43,7 @@ class ChangeMethodDialog extends StatelessWidget {
                         Expanded(
                           child: TextButton(
                             style: TextButton.styleFrom(
-                              primary: Theme.of(context).primaryColor,
+                              foregroundColor: Theme.of(context).primaryColor,
                               shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(10),
                                   side: BorderSide(

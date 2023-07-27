@@ -46,7 +46,7 @@ class DetailsAppBarState extends State<DetailsAppBar>
     return AppBar(
       leading: IconButton(
         icon: Icon(Icons.arrow_back_ios,
-            color: Theme.of(context).textTheme.bodyText1!.color, size: 20),
+            color: Theme.of(context).textTheme.bodyLarge!.color, size: 20),
         onPressed: () => Navigator.pop(context),
       ),
       elevation: 1,
@@ -65,7 +65,7 @@ class DetailsAppBarState extends State<DetailsAppBar>
                   Image.asset(Images.cart_icon,
                       width: 23,
                       height: 25,
-                      color: Theme.of(context).textTheme.bodyText1!.color),
+                      color: Theme.of(context).textTheme.bodyLarge!.color),
                   Positioned(
                     top: -7,
                     right: -2,

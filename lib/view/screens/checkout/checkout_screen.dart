@@ -1,6 +1,5 @@
 import 'dart:collection';
 import 'dart:convert' as convert;
-import 'dart:typed_data';
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
@@ -266,7 +265,7 @@ class _CheckoutScreenState extends State<CheckoutScreen> {
                                                                                   maxLines: 1,
                                                                                   overflow: TextOverflow.ellipsis,
                                                                                   style: poppinsMedium.copyWith(
-                                                                                    color: index == order.branchIndex ? Colors.white : Theme.of(context).textTheme.bodyText1!.color,
+                                                                                    color: index == order.branchIndex ? Colors.white : Theme.of(context).textTheme.bodyLarge!.color,
                                                                                   )),
                                                                             ),
                                                                           ),
@@ -966,7 +965,7 @@ class _CheckoutScreenState extends State<CheckoutScreen> {
                                                                             overflow:
                                                                                 TextOverflow.ellipsis,
                                                                             style: poppinsMedium.copyWith(
-                                                                              color: index == order.branchIndex ? Colors.white : Theme.of(context).textTheme.bodyText1!.color,
+                                                                              color: index == order.branchIndex ? Colors.white : Theme.of(context).textTheme.bodyLarge!.color,
                                                                             )),
                                                                       ),
                                                                     ),
