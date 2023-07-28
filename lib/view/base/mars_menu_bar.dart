@@ -232,7 +232,7 @@ class _MenuWidget extends StatelessWidget {
     List<MenuItems> menuItems,
   ) async {
     final RenderBox overlay =
-        Overlay.of(context)!.context.findRenderObject() as RenderBox;
+        Overlay.of(context).context.findRenderObject() as RenderBox;
 
     final Offset position = menu._position + Offset(0, height! - 11);
 

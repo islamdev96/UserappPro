@@ -74,7 +74,7 @@ class _WebAppBarState extends State<WebAppBar> {
     double left = offset.dx;
     double top = offset.dy;
     final RenderBox overlay =
-        Overlay.of(context)?.context.findRenderObject() as RenderBox;
+        Overlay.of(context).context.findRenderObject() as RenderBox;
     await showMenu(
       context: context,
       position: RelativeRect.fromLTRB(

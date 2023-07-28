@@ -45,7 +45,7 @@ class AccountDeleteDialog extends StatelessWidget {
                 alignment: Alignment.center,
                 decoration: BoxDecoration(
                     color: isFailed
-                        ? Theme.of(context).errorColor
+                        ? Theme.of(context).colorScheme.error
                         : Theme.of(context).primaryColor,
                     shape: BoxShape.circle),
                 child: Transform.rotate(
